@@ -20,6 +20,9 @@ dependencies:
   eslint-config-next:
     specifier: 13.4.19
     version: 13.4.19(eslint@8.47.0)(typescript@5.1.6)
+  expressjs:
+    specifier: ^1.0.1
+    version: 1.0.1
   next:
     specifier: 13.4.19
     version: 13.4.19(react-dom@18.2.0)(react@18.2.0)
@@ -989,6 +992,11 @@ packages:
   /esutils@2.0.3:
     resolution: {integrity: sha512-kVscqXk4OCp68SZ0dkgEKVi6/8ij300KBWTJq32P/dYeWTSwK41WyTxalN1eRmA5Z9UU/LX9D7FWSmV9SAYx6g==}
     engines: {node: '>=0.10.0'}
+    dev: false
+
+  /expressjs@1.0.1:
+    resolution: {integrity: sha512-eFnQ5bMJxTZ29XwRJPV8ee/OURBBMS6Fm+b5rvMMEyz6u2IxPEh2SRzMZt9WvgnV+SMLmnzkALE1DnGG1HxJCw==}
+    deprecated: This is a typosquat on the popular Express package. This is not maintained nor is the original Express package.
     dev: false
 
   /fast-deep-equal@3.1.3:
