@@ -12,6 +12,7 @@ export default function Home() {
       Get started by editing&nbsp;
     <code className={styles.code}>app/page.tsx</code>
       <a className={styles.AboutUs_main} href="/AboutUs">AboutUs</a>
+      <a className={styles.AboutUs_main} href="/Events/hi">AboutUs</a>
     </p>
     <div>
       <a
